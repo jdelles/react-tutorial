@@ -20,11 +20,15 @@ import LifecyleA from "./components/LifecyleA";
 import FragmentDemo from "./components/FragmentDemo";
 import Table from "./components/Table";
 import PureComp from "./components/PureComp";
+import ParentComp from "./components/ParentComp";
+import MemoComp from "./components/MemoComp";
+import RefsDemo from "./components/RefsDemo";
 
 function App() {
     return (
         <div className="App">
-            <PureComp />
+            <RefsDemo />
+            {/* <ParentComp /> */}
             {/* <Table /> */}
             {/* <FragmentDemo /> */}
             {/* <LifecyleA /> */}
